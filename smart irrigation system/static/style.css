@@ -1,0 +1,78 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f0f7f0;
+    min-height: 100vh;
+}
+
+.hero {
+    background: linear-gradient(135deg, #1b5e20, #388e3c);
+    color: white;
+    padding: 60px 20px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+    background: #2e7d32;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #1b5e20;
+}
+
+.badge-sdg {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin: 4px;
+}
+
+select.form-select,
+.form-label {
+    font-size: 1rem;
+}
+
+.form-select {
+    border-radius: 8px;
+    padding: 10px 14px;
+    border: 1.5px solid #c8e6c9;
+}
+
+.form-select:focus {
+    border-color: #2e7d32;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.15);
+}
+
+.crop-icon {
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: #888;
+    font-size: 0.85rem;
+}

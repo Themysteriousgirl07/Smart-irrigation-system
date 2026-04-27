@@ -264,7 +264,7 @@ def predict():
         'crop_tip': CROP_TIPS[crop],
     }
 
-    return render_template('result.html', r=result)
+    return render_template('result.html', r=result , estimated_moisture=estimated_moisture)
 
 
 if __name__ == '__main__':
